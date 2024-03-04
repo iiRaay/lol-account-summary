@@ -6,7 +6,7 @@ require("dotenv").config();
 const express = require("express");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
-// const jwt = require("express-jwt");
+const jwt = require("express-jwt");
 const cors = require("cors");
 const morgan = require("morgan");
 
